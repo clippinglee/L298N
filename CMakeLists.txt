@@ -7,8 +7,9 @@ set(SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/L298N_Cfg.c
 )
 
-add_library(${PROJECT_NAME} ${SOURCES})
+add_library(${PROJECT_NAME} STATIC ${SOURCES})
 
 target_include_directories(${PROJECT_NAME}
-PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}
+PUBLIC 
+    ${CMAKE_CURRENT_SOURCE_DIR}
 )
