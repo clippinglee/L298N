@@ -19,7 +19,7 @@ extern "C"{
 #define MOTOR_REVERSE 1U
 #define MOTOR_STOP    0U
 
-#define L298N_MOTOR_CHANNEL_MAX
+#define L298N_MOTOR_CHANNEL_MAX 2U
 
 typedef unsigned char Std_Return;
 
